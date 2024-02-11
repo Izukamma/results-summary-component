@@ -7,9 +7,8 @@
   font-family: "Hanken Grotesk", sans-serif;
 }
 
-h2,
-h1,
-p {
+/* h2, */
+h1 {
   color: white;
 }
 
@@ -20,12 +19,14 @@ p {
   margin: 0 auto;
   margin-top: 300px;
   border-radius: 20px;
+  display: flex;
+  gap: 30px;
 }
 
 .card1 {
   width: 300px;
   height: 400px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   border-radius: 20px;
   background: linear-gradient(
     to bottom,
@@ -41,7 +42,7 @@ p {
 .your-results h2 {
   margin-top: 25px;
   /* margin-left: 100px; */
-  font-size: 15px;
+  font-size: 20px;
   color: hsl(221, 100%, 96%);
 }
 
@@ -67,6 +68,7 @@ p {
 
 .number p {
   font-size: 12px;
+  color: hsl(221, 100%, 96%);
 }
 
 .discription {
@@ -86,5 +88,56 @@ p {
 }
 
 #p1 {
+  margin-top: 15px;
+}
+
+.card2 {
+  width: 300px;
+  height: 400px;
+  /* border: 1px solid green; */
+  border-radius: 20px;
+}
+
+.summary h2 {
+  margin-top: 25px;
+  font-size: 20px;
+}
+
+.reaction {
+  display: flex;
+  background-color: hsla(6, 100%, 98%, 1);
+  /* justify-content: space-evenly; */
+  /* border: 1px solid black; */
   margin-top: 20px;
+  padding: 10px;
+  width: 90%;
+  border-radius: 6px;
+}
+
+.nums {
+  align-self: center;
+  margin-left: 90px;
+}
+
+.reaction h3 {
+  margin-left: 5px;
+}
+
+.reaction2 h3 {
+  color: hsl(0, 100%, 67%);
+  font-size: 15px;
+}
+
+.reaction2 {
+  align-self: center;
+}
+
+.image {
+  /* align-self: center; */
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+img {
+  width: 15px;
 }
