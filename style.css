@@ -218,3 +218,7 @@ button {
   color: white;
   cursor: pointer;
 }
+
+span {
+  color: gray;
+}
